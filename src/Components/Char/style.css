@@ -1,0 +1,54 @@
+.char-cont {
+  width: 30%;
+  display: flex;
+}
+.char {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; 
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.char p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.del {
+  cursor: pointer;
+  margin-top: -10px;
+  margin-left: 0.25rem;
+}
+@media screen and (min-width: 728px) {
+ 
+  .char-cont {
+    width: 18%;
+    display: flex;
+  }
+  .char p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .char {
+    height: 50px;
+  }
+  .del {
+    margin-left: 0.25rem;
+  }
+}
+@media screen and (min-width: 998px) {
+  .char-cont{
+    width: 15%;
+    display: flex;
+  }
+  .char {
+    height: 70px;
+  }
+  .char p {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,158 @@
+.desktop {
+  display: none;
+}
+
+.bdr {
+  border: 1px solid #000;
+}
+.get-started h2 {
+  color: #020c18;
+}
+.filter-txt h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #020c18;
+}
+.get-started h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  color: #020c18;
+}
+mark {
+  background: transparent;
+}
+mark .focus{
+    text-decoration: line-through;
+  text-decoration-thickness: 0.15rem;
+  color: #043f84;
+}
+mark strong{
+    font-weight: 600;
+}
+.hello {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #020c18;
+}
+.hello p{
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #020c18;
+  opacity: 0.8;
+  font-weight: 600;
+}
+.hello svg {
+  margin-left: 0.5rem;
+  margin-top: 4px;
+}
+.home-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.home-one img {
+  width: 100%;
+  object-fit: cover;
+}
+.desktop {
+  display: none;
+}
+.home {
+  margin-top: 2rem;
+}
+.filter-txt {
+  margin-top: 1rem;
+}
+.get-started {
+  margin-top: 0.5rem;
+}
+.get-started p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #020c18;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 728px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+  .home-one {
+    width: 50%;
+  }
+  .filter-txt h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .get-started h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .get-started p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 0.25rem;
+  }
+  .two {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hello {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .get-started {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 820px) {
+  .filter-txt h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 998px) {
+  
+  .home-one img {
+    /* width: auto; */
+  }
+  .home {
+    margin-top: 0;
+  }
+  .filter-txt h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .get-started p {
+    margin-top: 0.5rem;
+  }
+  .get-started,
+  .filter-txt {
+    margin-top: 2rem;
+  }
+  .get-started h2 {
+    font-size: 40px;
+    line-height: 39px;
+  }
+}

@@ -1,0 +1,54 @@
+.popup-msg p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.for-msg {
+  background: #043f84;
+  padding: 1rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.popup-msg .line {
+  margin-top: 0.25rem;
+  height: 4px;
+  background: rgba(4, 63, 132, 0.25);;
+}
+.line .inner-line{
+    height: 100%;
+    background:  #043F84;
+    width: 50%;
+}
+@media screen and (min-width: 728px) {
+  .popup{
+    margin-top: 0.25rem;
+  }
+  .popup-msg p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .for-msg {
+    height: 45px;
+    border-radius: 5px;
+    width: 97%;
+  }
+  .popup-msg .line{
+    width: 97%
+}
+}
+@media screen and (min-width: 998px) {
+  .popup-msg p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .for-msg {
+    height: 50px;
+    width: 98.5%;
+  }
+  .popup-msg .line{
+    width: 98.5%;
+}
+}

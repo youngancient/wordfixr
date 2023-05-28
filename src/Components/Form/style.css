@@ -1,0 +1,92 @@
+form input {
+  width: 100%;
+  border: 2px solid rgba(2, 12, 24, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+form input:focus {
+  border: 2px solid #043f84;
+  transition: 0.5s ease-in-out;
+}
+form button {
+  width: 100%;
+  background: #043f84;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  line-height: 25px;
+  height: 60px;
+  box-shadow: 0px 4px 12px rgba(2, 12, 24, 0.15);
+}
+form button:disabled,
+form button[disabled]{
+  opacity: 0.7;
+}
+form {
+  margin-top: 2rem;
+}
+.message {
+  margin-top: 0.25rem;
+  height: 1.5rem;
+}
+form .btn {
+  margin-top: 1.2rem;
+}
+.message p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 12px;
+}
+.message .error{
+    color: #960505;
+}
+.message .success{
+    color: #057509;
+}
+.message span{
+    display: flex;
+    align-items: center;
+}
+.message p{
+    margin-left: 0.25rem;
+}
+@media screen and (min-width: 728px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  form input,
+  form button {
+    width: 95%;
+  }
+  .message p{
+    font-size: 1rem;
+  }
+  .message{
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 998px) {
+  form {
+    margin-top: 2.5rem;
+  }
+  form input,
+  form button {
+    width: 80%;
+  }
+  form .btn {
+    margin-top: 1.5rem;
+  }
+  .message{
+    margin-top: 1rem;
+  }
+}

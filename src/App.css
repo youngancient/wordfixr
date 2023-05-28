@@ -1,0 +1,48 @@
+.desktop {
+  display: none;
+}
+main {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+h1 {
+  color: #020c18;
+}
+h1 strong {
+  color: #043f84;
+}
+h1,
+h1 strong {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 39px;
+}
+@media screen and (min-width: 728px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  main {
+    padding: 1.5rem;
+  }
+  h1,
+  h1 strong {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media screen and (min-width: 998px) {
+  main {
+    margin-top: 1rem;
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+  }
+  h1,
+  h1 strong {
+    font-size: 48px;
+  }
+}

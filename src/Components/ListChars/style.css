@@ -1,0 +1,17 @@
+
+.list-chars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 728px ) {
+    .list-chars{
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 998px ) {
+    .list-chars{
+        gap: 1.3rem;
+    }
+}
