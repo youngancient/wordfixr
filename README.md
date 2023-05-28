@@ -1,6 +1,4 @@
 
-### Houseware frontend engineering test.
-
 ## Solution
 
 <h1 align="center">
@@ -19,7 +17,7 @@
 No configuration or complicated folder structures, just the files you need to build your app:
 
 ```
-houseware---frontend-engineering-octernship-youngancient
+Wordfixr
 ├── node_modules
 ├── public
 │   ├── favicon.svg
@@ -46,9 +44,9 @@ houseware---frontend-engineering-octernship-youngancient
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/HousewareHQ/houseware---frontend-engineering-octernship-youngancient.git
+git clone https://github.com/youngancient/wordfixr.git
 
-cd houseware---frontend-engineering-octernship-youngancient
+cd wordfixr
 ```
 
 Install dependencies: You can use npm, but I am a fan of yarn!
