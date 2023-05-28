@@ -5,11 +5,14 @@ import { useNavigate } from "react-router-dom";
 import { WordContext } from "../../Utils/WordContext";
 
 const FormComp = () => {
+  // get word from context
   const [sharedWord, setSharedWord] = useContext(WordContext);
   const [input, setInput] = useState("");
   const [isValid, setIsValid] = useState(false);
   const [error, setError] = useState();
   const [success, setSuccess] = useState();
+
+  // handle change function 
   const handleChange = (e) => {
     let val = e.target.value;
     setInput(val);
@@ -27,6 +30,7 @@ const FormComp = () => {
     }
   };
   const navigate = useNavigate();
+  // handling form sumission
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!error && input.length > 0) {
