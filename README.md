@@ -13,7 +13,6 @@
 
 
 ## Folder Structure
-
 No configuration or complicated folder structures, just the files you need to build your app:
 
 ```
@@ -74,8 +73,8 @@ In this project, you can run the following scripts:
 | yarn run preview | Serves the production build from the `dist` folder. |
 
 #### Solution Details
-> I created a vite-powered react app and made a webapp that satisfies all the given requirements.
 > Click to preview live : <a href="https://wordfixr.netlify.app/">WordFixr</a>
+> I created a vite-powered react app and made a webapp that satisfies the following:
 1. In Screen one, users are prompted to enter the text in the form according to the specified validation rules.
 2. Once the validation rules are obeyed, the user is redirected to screen2
 3. In screen two, the characters in the input entered earlier are looped over and presented as cards each having a delete symbol. If the letter has no duplicate, the delete icon appears disabled and if duplicate exists, it appears active. Each character card has different background colors, which duplicates have the same.
