@@ -1,6 +1,4 @@
 
-## Solution
-
 <h1 align="center">
   WordFixr
 </h1>
