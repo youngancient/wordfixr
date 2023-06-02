@@ -11,6 +11,13 @@
   </a>
 </p>
 
+## Project Explained
+This is a really simple project which helps filter duplicates characters but in a different way.
+The usual way is to delete all duplicate instances of the characters having duplicates, but my approach is different.
+My approach is gives the user the ability to remove characters by clicking on the character. When the character is clicked,
+the program removes all duplicates of the selected character leaving it behind as the only existing character. 
+Once all the characters have no duplicates, there's a fancy popup alert.
+Also note that all duplicates characters have the same card color and the uppercase and lowercase of a character are treated as same.
 
 ## Folder Structure
 No configuration or complicated folder structures, just the files you need to build your app:
